@@ -10,10 +10,10 @@ public class Main {
 
         while (true) {
             System.out.println("""
-                    1. Create account
-                    2. Find account by id
-                    3. Transfer money
-                    4. View transaction details
+                    1. Create Account
+                    2. Find Account by id
+                    3. Transfer Money
+                    4. View Transaction Details
                     0. Exit""");
             System.out.print("\uD83D\uDCA1 Enter an option: ");
             int op = Integer.parseInt(scanner.nextLine());
